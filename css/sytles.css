@@ -63,14 +63,10 @@ li{
 
 
 #main-container{
-    
     text-align: center;
     margin: 0.1rem auto 0;
-    /* padding: 3rem auto; */
 }
-/* .temperature{
-    margin-top: 0.5rem;
-} */
+
 .temperature figure{
     font-size: 2rem;
     padding-top: 0.6rem;
