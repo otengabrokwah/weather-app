@@ -25,9 +25,7 @@
 
 /* REFRACTED CODE*/
 
-#main-container, .alert{
-    max-width: 450px;
-}
+
 
 
 .input input[type="text"], .submit button{
@@ -65,6 +63,7 @@ li{
 #main-container{
     text-align: center;
     margin: 0.1rem auto 0;
+    max-width: 400px;
 }
 
 .temperature figure{
@@ -124,4 +123,21 @@ hr{
     background-color:var(--alert-color);
     color: var(--white-color);
     padding: 0.5rem;
+    max-width: 450px;
 }
+
+
+@media(max-width:500px) {
+#main-container{
+    max-width: 300px;
+    margin-top: 3rem;
+}
+}
+
+
+@media(min-width:501px) and (max-width:768px){
+#main-container{
+    margin-top: 3rem;
+}
+}
+
