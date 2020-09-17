@@ -1,0 +1,131 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
+
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Abhaya Libre', serif;
+}
+
+
+:scope{
+    --background-color: #00adfd;
+    --outline-color:#42a5c4;
+    --hr-color:#77c5e4;
+    --main-description-bg:#fdf9f9;
+    --alert-color:#f70909;
+    --white-color:#ffffff;
+}
+
+
+
+
+/* REFRACTED CODE*/
+
+#main-container, .alert{
+    max-width: 450px;
+}
+
+
+.input input[type="text"], .submit button{
+    width: 100%;
+    height: 2.7rem;
+    border: none;
+    outline-color: var(--outline-color);
+}
+
+
+.submit button, ::placeholder{
+    font-size: 1rem;
+}
+
+
+hr,.alert{
+    margin: auto;
+}
+
+
+
+
+/* MAIN CODE */
+
+ul{
+    list-style-type: none;
+}
+
+
+li{
+    padding: 1rem 0;
+}
+
+
+#main-container{
+    
+    text-align: center;
+    margin: 0.1rem auto 0;
+    /* padding: 3rem auto; */
+}
+/* .temperature{
+    margin-top: 0.5rem;
+} */
+.temperature figure{
+    font-size: 2rem;
+    padding-top: 0.6rem;
+}
+
+
+#weather-content{
+    padding: 1rem;
+    background-color:var(--background-color);
+    
+}
+
+
+.weather-header{
+    padding: 1rem 0;
+    color:var(--main-description-bg);
+}
+
+
+.input-and-button{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 0.5rem;
+    padding-bottom: 1.5rem;  
+}
+
+
+.input input[type="text"] {
+    text-indent: 1rem;
+}
+
+
+hr{
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: dotted;
+    border-color: var(--hr-color);
+    max-width: 300px;   
+}
+
+
+.main-description{
+    background:var(--main-description-bg);
+}
+
+
+.footer{
+    padding-top: 0.5rem;
+    color: var(--main-description-bg);
+}
+
+
+.alert{
+    background-color:var(--alert-color);
+    color: var(--white-color);
+    padding: 0.5rem;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/sytles.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <!-- <div> -->
+        <div id="weather-content">
+            <div class="weather-header">
+                <h1> Weather <span><i class="fas fa-cloud-sun"></i></span> App</h1>
+            </div>
+            <form action="#" class="input-form">
+                <div class="input-and-button">
+                    <div class="input">
+                        <input type="text" name="weatherInput" id="weatherInput" placeholder="Enter City Name" autocomplete="off">
+                    </div>
+                    <div class="submit">
+                        <button>Go</button>
+                    </div>
+                </div>
+            </form>
+            <div class="hide-and-show">          
+                <div id="description">
+                    <div class="city-name">
+                        <h3></h3>
+                    </div>
+                    <div class="description">
+                        <p></p>
+                    </div>
+                    <div class="temperature">
+                        <figure></figure>
+                    </div>
+                    <div class="icon">
+                        <img alt="">
+                    </div>
+                </div>
+                <div class="main-description">
+                    <ul>
+                        <div class="humidity">
+                            <li></li>
+                        </div>
+                        <hr>
+                        <div class="pressure">
+                            <li></li>
+                        </div>
+                        <hr>
+                        <div class="feels-like">
+                            <li></li>
+                        </div>
+                        <hr>
+                        <div class="wind">
+                            <li></li>
+                        </div>
+                        <hr>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <small>&copy; 2020</small>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./js/weather.js"></script>
+    <script src="./js/ui.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
