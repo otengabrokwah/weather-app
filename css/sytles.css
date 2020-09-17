@@ -126,7 +126,7 @@ hr{
     max-width: 450px;
 }
 
-
+/* MEDIA QUERY */
 @media(max-width:500px) {
 #main-container{
     max-width: 300px;
@@ -135,9 +135,10 @@ hr{
 }
 
 
-@media(min-width:501px) and (max-width:768px){
+@media(min-width:501px) and (max-width:1024px){
 #main-container{
     margin-top: 3rem;
 }
 }
+
 

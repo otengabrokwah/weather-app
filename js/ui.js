@@ -10,6 +10,7 @@ class UI{
         this.wind = document.querySelector('.wind li');
         this.hideAndShows = document.querySelector('.hide-and-show');
         this.loader = document.querySelector('.loader');
+        this.dateUpdate = document.querySelector('span.date-update')
     }
 
     // Hide UI
@@ -70,22 +71,12 @@ class UI{
            currentAlert.remove();
        }
     }
-
-   
-
-
-
-
-
-
-
     
-
 
 }
 
 
-
+ 
 
 
 

@@ -27,7 +27,8 @@ inputForm.addEventListener('submit', (e) => {
                     // Show Results
                      ui.weatherResults(data);
                    
-                     document.querySelector('#weatherInput').value = ''; 
+                    //  Clear Input Field
+                    //  document.querySelector('#weatherInput').value = ''; 
                 }
 
             })
@@ -51,8 +52,6 @@ inputForm.addEventListener('submit', (e) => {
   if(weatherInput === '' || weatherInput !== '') {
     ui.hide();
  }
-
-
 
 
 
